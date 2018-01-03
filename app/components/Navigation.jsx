@@ -10,10 +10,8 @@ let Navigation = React.createClass({
             <li>
               <mark>My App</mark>
             </li>
-            <li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Menu Item
-              1</IndexLink></li>
-            <li><Link to="/menu2" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Menu Item
-              2</Link></li>
+            <li><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>todos</IndexLink></li>
+            <li><Link to="/menu2" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Menu 2</Link></li>
           </ul>
         </div>
         <div className="right aside-nav">

@@ -24,7 +24,7 @@ module.exports = {
             applicationStyles: 'app/styles/app.scss',
             Main: 'app/components/Main.jsx',
             MenuItem2: 'app/components/MenuItem2.jsx',
-            MenuItem1: 'app/components/MenuItem1.jsx',
+            TodoApp: 'app/components/TodoApp.jsx',
             Navigation: 'app/components/Navigation.jsx'
         },
         extensions: ['', '.js', '.jsx']

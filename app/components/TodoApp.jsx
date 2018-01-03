@@ -1,11 +1,11 @@
 let React = require('react');
 
-let MenuItem1 = React.createClass({
+let TodoApp = React.createClass({
   render: function () {
     return (
-      <p>Content 1</p>
+      <p>Todo App</p>
     );
   }
 });
 
-module.exports = MenuItem1;
+module.exports = TodoApp;
