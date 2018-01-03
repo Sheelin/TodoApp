@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.content {
+  grid-column-start: 2;
+  background-color: $primary-light;
+  color: $primary-dark;
+  padding: 1em;
+}

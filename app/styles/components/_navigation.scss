@@ -1,0 +1,36 @@
+nav, nav ul {
+  background-color: $primary-dark;
+  color: $primary-light
+}
+
+nav {
+  grid-column: 1/4;
+  > div {
+    display: inline;
+    > ul {
+      display: inline;
+      > li {
+        list-style-type: none;
+        display: inline;
+        margin: 0 1em;
+        line-height: 2em;
+        > a {
+          color: $primary-light;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .right {
+    text-align: right;
+  }
+
+  mark {
+    color: $primary-highlight-light;
+    background-color: transparent;
+  }
+
+  .active-link {
+    font-weight: bold;
+  }
+}
