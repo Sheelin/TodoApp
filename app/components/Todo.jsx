@@ -1,12 +1,12 @@
-var React = require('react');
-var moment = require('moment');
+let React = require('react');
+let moment = require('moment');
 
-var Todo = React.createClass({
+let Todo = React.createClass({
   render: function () {
-    var {id, text, completed, createdAt, completedAt} = this.props;
-    var renderDate = () => {
-      var message = 'Created ';
-      var timestamp = createdAt;
+    let {id, text, completed, createdAt, completedAt} = this.props;
+    let renderDate = () => {
+      let message = 'Created ';
+      let timestamp = createdAt;
 
       if (completed) {
         message = 'Completed ';

@@ -1,10 +1,10 @@
-var React = require('react');
-var Todo = require('Todo');
+let React = require('react');
+let Todo = require('Todo');
 
-var TodoList = React.createClass({
+let TodoList = React.createClass({
   render: function () {
-    var {todos} = this.props;
-    var renderTodos = () => {
+    let {todos} = this.props;
+    let renderTodos = () => {
       return todos.map((todo) => {
         return (
           <Todo key={todo.id} {...todo} onToggle={this.props.onToggle}/>
